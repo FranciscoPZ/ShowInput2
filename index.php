@@ -6,7 +6,7 @@
 		function changeDropdown() {
 		 	var state=document.getElementById('myselect').value;
 		 	if (state=="AP") {
-		 		document.getElementById("uname").style.display='none';
+		 		document.getElementById("uname").style.display='none'; //Javascript
 		 	}else{
 		 		document.getElementById("uname").style.display='block';
 		 	}
